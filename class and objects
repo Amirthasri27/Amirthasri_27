@@ -1,0 +1,36 @@
+Question: to create a class with the object playground and players 
+
+Code:
+#include<iostream>
+using namespace std;
+class playground
+{
+    public:
+    void ball()
+    {
+        cout<<"It is a cricket ball"<<endl;
+    }
+    void net()
+    {
+        cout<<"It is a badminton net"<<endl;
+    }
+};
+class players:public playground
+{
+    public:
+    void tshirt()
+    {
+        cout<<"Wear tshirt"<<endl;
+    }
+    void coach()
+    {
+        cout<<"The coach is calling"<<endl;
+    }
+}ch;
+int main()
+{
+    ch.ball();
+    ch.net();
+    ch.tshirt();
+    ch.coach();
+}    
